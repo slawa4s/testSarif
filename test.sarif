@@ -30,7 +30,23 @@
             "codeFlows": [
               {
                 "threadFlows": [ {
-                  "locations": [{
+                  "locations": [
+                    {
+                      "nestingLevel": 0,
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "lib/pointers/pointer_parameters.c",
+                            "uriBaseId" : "%SRCROOT%"
+                          },
+                          "region": {
+                            "startLine": 24
+                          }
+                        }
+                      }
+                    },
+                    
+                    {
                     "nestingLevel": 1,
                     "location": {
                       "physicalLocation": {
@@ -39,25 +55,12 @@
                           "uriBaseId" : "%SRCROOT%"
                         },
                         "region": {
-                          "startLine": 7
+                          "startLine": 9
                         }
                       }                  
                     }
-                  },
-                  {
-                    "nestingLevel": 0,
-                    "location": {
-                      "physicalLocation": {
-                        "artifactLocation": {
-                          "uri": "lib/pointers/pointer_parameters.c",
-                          "uriBaseId" : "%SRCROOT%"
-                        },
-                        "region": {
-                          "startLine": 24
-                        }
-                      }
-                    }
                   }
+                  
                   ] 
                 }
                   
