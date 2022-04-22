@@ -36,8 +36,7 @@
                       "location": {
                         "physicalLocation": {
                           "artifactLocation": {
-                            "uri": "lib/pointers/pointer_parameters.c",
-                            "uriBaseId" : "%SRCROOT%"
+                            "uri": "lib/pointers/pointer_parameters.c"
                           },
                           "region": {
                             "startLine": 24
@@ -51,8 +50,8 @@
                     "location": {
                       "physicalLocation": {
                         "artifactLocation": {
-                          "uri": "lib/pointers/pointer_parameters.c",
-                          "uriBaseId" : "%SRCROOT%"
+                          "uri": "lib/pointers/pointer_parameters.c"
+                        
                         },
                         "region": {
                           "startLine": 9
