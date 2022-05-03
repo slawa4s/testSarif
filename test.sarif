@@ -1,6 +1,6 @@
 {
     "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.4.json",
-    "runs": {
+    "runs": [{
         "results": [
             {
                 "codeFlows": [
@@ -244,6 +244,11 @@
                 "name": "utbotSARIF"
             }
         }
-    },
+    }],
     "version": "2.1.0"
 }
+
+
+
+
+
