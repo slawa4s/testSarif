@@ -9,32 +9,38 @@
                             {
                                 "locations": [
                                     {
-                                        "physicalLocation": {
-                                            "artifactLocation": {
-                                                "uri": "runtime/POSIX/klee_init_env.c"
-                                            },
-                                            "region": {
-                                                "startLine": 249
+                                        "location": {
+                                            "physicalLocation": {
+                                                "artifactLocation": {
+                                                    "uri": "runtime/POSIX/klee_init_env.c"
+                                                },
+                                                "region": {
+                                                    "startLine": 249
+                                                }
                                             }
                                         }
                                     },
                                     {
-                                        "physicalLocation": {
-                                            "artifactLocation": {
-                                                "uri": "tmp/utbot-AX4M/lib/assertion_failures_klee.c"
-                                            },
-                                            "region": {
-                                                "startLine": 33
+                                        "location": {
+                                            "physicalLocation": {
+                                                "artifactLocation": {
+                                                    "uri": "tmp/utbot-AX4M/lib/assertion_failures_klee.c"
+                                                },
+                                                "region": {
+                                                    "startLine": 33
+                                                }
                                             }
                                         }
                                     },
                                     {
-                                        "physicalLocation": {
-                                            "artifactLocation": {
-                                                "uri": "lib/assertion_failures.c"
-                                            },
-                                            "region": {
-                                                "startLine": 19
+                                        "location": {
+                                            "physicalLocation": {
+                                                "artifactLocation": {
+                                                    "uri": "lib/assertion_failures.c"
+                                                },
+                                                "region": {
+                                                    "startLine": 19
+                                                }
                                             }
                                         }
                                     }
@@ -68,32 +74,38 @@
                             {
                                 "locations": [
                                     {
-                                        "physicalLocation": {
-                                            "artifactLocation": {
-                                                "uri": "runtime/POSIX/klee_init_env.c"
-                                            },
-                                            "region": {
-                                                "startLine": 249
+                                        "location": {
+                                            "physicalLocation": {
+                                                "artifactLocation": {
+                                                    "uri": "runtime/POSIX/klee_init_env.c"
+                                                },
+                                                "region": {
+                                                    "startLine": 249
+                                                }
                                             }
                                         }
                                     },
                                     {
-                                        "physicalLocation": {
-                                            "artifactLocation": {
-                                                "uri": "tmp/utbot-AX4M/lib/assertion_failures_klee.c"
-                                            },
-                                            "region": {
-                                                "startLine": 33
+                                        "location": {
+                                            "physicalLocation": {
+                                                "artifactLocation": {
+                                                    "uri": "tmp/utbot-AX4M/lib/assertion_failures_klee.c"
+                                                },
+                                                "region": {
+                                                    "startLine": 33
+                                                }
                                             }
                                         }
                                     },
                                     {
-                                        "physicalLocation": {
-                                            "artifactLocation": {
-                                                "uri": "lib/assertion_failures.c"
-                                            },
-                                            "region": {
-                                                "startLine": 18
+                                        "location": {
+                                            "physicalLocation": {
+                                                "artifactLocation": {
+                                                    "uri": "lib/assertion_failures.c"
+                                                },
+                                                "region": {
+                                                    "startLine": 18
+                                                }
                                             }
                                         }
                                     }
@@ -127,32 +139,38 @@
                             {
                                 "locations": [
                                     {
-                                        "physicalLocation": {
-                                            "artifactLocation": {
-                                                "uri": "runtime/POSIX/klee_init_env.c"
-                                            },
-                                            "region": {
-                                                "startLine": 249
+                                        "location": {
+                                            "physicalLocation": {
+                                                "artifactLocation": {
+                                                    "uri": "runtime/POSIX/klee_init_env.c"
+                                                },
+                                                "region": {
+                                                    "startLine": 249
+                                                }
                                             }
                                         }
                                     },
                                     {
-                                        "physicalLocation": {
-                                            "artifactLocation": {
-                                                "uri": "tmp/utbot-AX4M/lib/assertion_failures_klee.c"
-                                            },
-                                            "region": {
-                                                "startLine": 22
+                                        "location": {
+                                            "physicalLocation": {
+                                                "artifactLocation": {
+                                                    "uri": "tmp/utbot-AX4M/lib/assertion_failures_klee.c"
+                                                },
+                                                "region": {
+                                                    "startLine": 22
+                                                }
                                             }
                                         }
                                     },
                                     {
-                                        "physicalLocation": {
-                                            "artifactLocation": {
-                                                "uri": "lib/assertion_failures.c"
-                                            },
-                                            "region": {
-                                                "startLine": 9
+                                        "location": {
+                                            "physicalLocation": {
+                                                "artifactLocation": {
+                                                    "uri": "lib/assertion_failures.c"
+                                                },
+                                                "region": {
+                                                    "startLine": 9
+                                                }
                                             }
                                         }
                                     }
@@ -186,32 +204,38 @@
                             {
                                 "locations": [
                                     {
-                                        "physicalLocation": {
-                                            "artifactLocation": {
-                                                "uri": "runtime/POSIX/klee_init_env.c"
-                                            },
-                                            "region": {
-                                                "startLine": 249
+                                        "location": {
+                                            "physicalLocation": {
+                                                "artifactLocation": {
+                                                    "uri": "runtime/POSIX/klee_init_env.c"
+                                                },
+                                                "region": {
+                                                    "startLine": 249
+                                                }
                                             }
                                         }
                                     },
                                     {
-                                        "physicalLocation": {
-                                            "artifactLocation": {
-                                                "uri": "tmp/utbot-AX4M/lib/assertion_failures_klee.c"
-                                            },
-                                            "region": {
-                                                "startLine": 48
+                                        "location": {
+                                            "physicalLocation": {
+                                                "artifactLocation": {
+                                                    "uri": "tmp/utbot-AX4M/lib/assertion_failures_klee.c"
+                                                },
+                                                "region": {
+                                                    "startLine": 48
+                                                }
                                             }
                                         }
                                     },
                                     {
-                                        "physicalLocation": {
-                                            "artifactLocation": {
-                                                "uri": "lib/assertion_failures.c"
-                                            },
-                                            "region": {
-                                                "startLine": 24
+                                        "location": {
+                                            "physicalLocation": {
+                                                "artifactLocation": {
+                                                    "uri": "lib/assertion_failures.c"
+                                                },
+                                                "region": {
+                                                    "startLine": 24
+                                                }
                                             }
                                         }
                                     }
@@ -247,8 +271,3 @@
     }],
     "version": "2.1.0"
 }
-
-
-
-
-
