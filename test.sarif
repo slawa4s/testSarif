@@ -13,10 +13,10 @@
                                             "location": {
                                                 "physicalLocation": {
                                                     "artifactLocation": {
-                                                        "uri": "lib/pointers/pointer_parameters.c"
+                                                        "uri": "lib/assertion_failures.c"
                                                     },
                                                     "region": {
-                                                        "startLine": 24
+                                                        "startLine": 19
                                                     }
                                                 }
                                             }
@@ -25,22 +25,10 @@
                                             "location": {
                                                 "physicalLocation": {
                                                     "artifactLocation": {
-                                                        "uri": "lib/pointers/pointer_parameters.c"
+                                                        "uri": "tests/lib/assertion_failures_test.cpp"
                                                     },
                                                     "region": {
-                                                        "startLine": 9
-                                                    }
-                                                }
-                                            }
-                                        },
-                                        {
-                                            "location": {
-                                                "physicalLocation": {
-                                                    "artifactLocation": {
-                                                        "uri": "tests/lib/pointers/pointer_parameters_test.cpp"
-                                                    },
-                                                    "region": {
-                                                        "startLine": 27
+                                                        "startLine": 43
                                                     }
                                                 }
                                             }
@@ -55,7 +43,166 @@
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
-                                    "uri": "lib/pointers/pointer_parameters.c"
+                                    "uri": "lib/assertion_failures.c"
+                                },
+                                "region": {
+                                    "startLine": 19
+                                }
+                            }
+                        }
+                    ],
+                    "message": {
+                        "text": "ASSERTION FAIL: a < 7"
+                    },
+                    "ruleId": "assert.err"
+                },
+                {
+                    "codeFlows": [
+                        {
+                            "threadFlows": [
+                                {
+                                    "locations": [
+                                        {
+                                            "location": {
+                                                "physicalLocation": {
+                                                    "artifactLocation": {
+                                                        "uri": "lib/assertion_failures.c"
+                                                    },
+                                                    "region": {
+                                                        "startLine": 18
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "location": {
+                                                "physicalLocation": {
+                                                    "artifactLocation": {
+                                                        "uri": "tests/lib/assertion_failures_test.cpp"
+                                                    },
+                                                    "region": {
+                                                        "startLine": 48
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "level": "error",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "lib/assertion_failures.c"
+                                },
+                                "region": {
+                                    "startLine": 18
+                                }
+                            }
+                        }
+                    ],
+                    "message": {
+                        "text": "ASSERTION FAIL: a == 7"
+                    },
+                    "ruleId": "assert.err"
+                },
+                {
+                    "codeFlows": [
+                        {
+                            "threadFlows": [
+                                {
+                                    "locations": [
+                                        {
+                                            "location": {
+                                                "physicalLocation": {
+                                                    "artifactLocation": {
+                                                        "uri": "lib/assertion_failures.c"
+                                                    },
+                                                    "region": {
+                                                        "startLine": 24
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "location": {
+                                                "physicalLocation": {
+                                                    "artifactLocation": {
+                                                        "uri": "tests/lib/assertion_failures_test.cpp"
+                                                    },
+                                                    "region": {
+                                                        "startLine": 53
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "level": "error",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "lib/assertion_failures.c"
+                                },
+                                "region": {
+                                    "startLine": 24
+                                }
+                            }
+                        }
+                    ],
+                    "message": {
+                        "text": "ASSERTION FAIL: a < 1"
+                    },
+                    "ruleId": "assert.err"
+                },
+                {
+                    "codeFlows": [
+                        {
+                            "threadFlows": [
+                                {
+                                    "locations": [
+                                        {
+                                            "location": {
+                                                "physicalLocation": {
+                                                    "artifactLocation": {
+                                                        "uri": "lib/assertion_failures.c"
+                                                    },
+                                                    "region": {
+                                                        "startLine": 9
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "location": {
+                                                "physicalLocation": {
+                                                    "artifactLocation": {
+                                                        "uri": "tests/lib/assertion_failures_test.cpp"
+                                                    },
+                                                    "region": {
+                                                        "startLine": 38
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "level": "error",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "lib/assertion_failures.c"
                                 },
                                 "region": {
                                     "startLine": 9
@@ -64,9 +211,9 @@
                         }
                     ],
                     "message": {
-                        "text": "memory error: out of bound pointer"
+                        "text": "ASSERTION FAIL: a != 42"
                     },
-                    "ruleId": "ptr.err"
+                    "ruleId": "assert.err"
                 }
             ],
             "tool": {
