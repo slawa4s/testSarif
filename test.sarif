@@ -61,7 +61,7 @@
                                             "location": {
                                                 "physicalLocation": {
                                                     "artifactLocation": {
-                                                        "uri": "/home/utbot/example/testSarif/tests/lib/pointers/pointer_parameters_test.cpp"
+                                                        "uri": "tests/lib/pointers/pointer_parameters_test.cpp"
                                                     },
                                                     "region": {
                                                         "startLine": 27
