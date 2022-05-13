@@ -1,273 +1,105 @@
 {
     "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.4.json",
-    "runs": [{
-        "results": [
-            {
-                "codeFlows": [
-                    {
-                        "threadFlows": [
-                            {
-                                "locations": [
-                                    {
-                                        "location": {
-                                            "physicalLocation": {
-                                                "artifactLocation": {
-                                                    "uri": "runtime/POSIX/klee_init_env.c"
-                                                },
-                                                "region": {
-                                                    "startLine": 249
+    "runs": [
+        {
+            "results": [
+                {
+                    "codeFlows": [
+                        {
+                            "threadFlows": [
+                                {
+                                    "locations": [
+                                        {
+                                            "location": {
+                                                "physicalLocation": {
+                                                    "artifactLocation": {
+                                                        "uri": "runtime/POSIX/klee_init_env.c"
+                                                    },
+                                                    "region": {
+                                                        "startLine": 249
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "location": {
+                                                "physicalLocation": {
+                                                    "artifactLocation": {
+                                                        "uri": "tmp/utbot-AB8X/lib/pointers/pointer_parameters_klee.c"
+                                                    },
+                                                    "region": {
+                                                        "startLine": 18
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "location": {
+                                                "physicalLocation": {
+                                                    "artifactLocation": {
+                                                        "uri": "lib/pointers/pointer_parameters.c"
+                                                    },
+                                                    "region": {
+                                                        "startLine": 24
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "location": {
+                                                "physicalLocation": {
+                                                    "artifactLocation": {
+                                                        "uri": "lib/pointers/pointer_parameters.c"
+                                                    },
+                                                    "region": {
+                                                        "startLine": 9
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "location": {
+                                                "physicalLocation": {
+                                                    "artifactLocation": {
+                                                        "uri": "/home/utbot/example/testSarif/tests/lib/pointers/pointer_parameters_test.cpp"
+                                                    },
+                                                    "region": {
+                                                        "startLine": 27
+                                                    }
                                                 }
                                             }
                                         }
-                                    },
-                                    {
-                                        "location": {
-                                            "physicalLocation": {
-                                                "artifactLocation": {
-                                                    "uri": "tmp/utbot-AX4M/lib/assertion_failures_klee.c"
-                                                },
-                                                "region": {
-                                                    "startLine": 33
-                                                }
-                                            }
-                                        }
-                                    },
-                                    {
-                                        "location": {
-                                            "physicalLocation": {
-                                                "artifactLocation": {
-                                                    "uri": "lib/assertion_failures.c"
-                                                },
-                                                "region": {
-                                                    "startLine": 19
-                                                }
-                                            }
-                                        }
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                "level": "error",
-                "locations": [
-                    {
-                        "physicalLocation": {
-                            "artifactLocation": {
-                                "uri": "lib/assertion_failures.c"
-                            },
-                            "region": {
-                                "startLine": 19
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "level": "error",
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "lib/pointers/pointer_parameters.c"
+                                },
+                                "region": {
+                                    "startLine": 9
+                                }
                             }
                         }
-                    }
-                ],
-                "message": {
-                    "text": "ASSERTION FAIL: a < 7"
-                },
-                "ruleId": "assert.err"
-            },
-            {
-                "codeFlows": [
-                    {
-                        "threadFlows": [
-                            {
-                                "locations": [
-                                    {
-                                        "location": {
-                                            "physicalLocation": {
-                                                "artifactLocation": {
-                                                    "uri": "runtime/POSIX/klee_init_env.c"
-                                                },
-                                                "region": {
-                                                    "startLine": 249
-                                                }
-                                            }
-                                        }
-                                    },
-                                    {
-                                        "location": {
-                                            "physicalLocation": {
-                                                "artifactLocation": {
-                                                    "uri": "tmp/utbot-AX4M/lib/assertion_failures_klee.c"
-                                                },
-                                                "region": {
-                                                    "startLine": 33
-                                                }
-                                            }
-                                        }
-                                    },
-                                    {
-                                        "location": {
-                                            "physicalLocation": {
-                                                "artifactLocation": {
-                                                    "uri": "lib/assertion_failures.c"
-                                                },
-                                                "region": {
-                                                    "startLine": 18
-                                                }
-                                            }
-                                        }
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                "level": "error",
-                "locations": [
-                    {
-                        "physicalLocation": {
-                            "artifactLocation": {
-                                "uri": "lib/assertion_failures.c"
-                            },
-                            "region": {
-                                "startLine": 18
-                            }
-                        }
-                    }
-                ],
-                "message": {
-                    "text": "ASSERTION FAIL: a == 7"
-                },
-                "ruleId": "assert.err"
-            },
-            {
-                "codeFlows": [
-                    {
-                        "threadFlows": [
-                            {
-                                "locations": [
-                                    {
-                                        "location": {
-                                            "physicalLocation": {
-                                                "artifactLocation": {
-                                                    "uri": "runtime/POSIX/klee_init_env.c"
-                                                },
-                                                "region": {
-                                                    "startLine": 249
-                                                }
-                                            }
-                                        }
-                                    },
-                                    {
-                                        "location": {
-                                            "physicalLocation": {
-                                                "artifactLocation": {
-                                                    "uri": "tmp/utbot-AX4M/lib/assertion_failures_klee.c"
-                                                },
-                                                "region": {
-                                                    "startLine": 22
-                                                }
-                                            }
-                                        }
-                                    },
-                                    {
-                                        "location": {
-                                            "physicalLocation": {
-                                                "artifactLocation": {
-                                                    "uri": "lib/assertion_failures.c"
-                                                },
-                                                "region": {
-                                                    "startLine": 9
-                                                }
-                                            }
-                                        }
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                "level": "error",
-                "locations": [
-                    {
-                        "physicalLocation": {
-                            "artifactLocation": {
-                                "uri": "lib/assertion_failures.c"
-                            },
-                            "region": {
-                                "startLine": 9
-                            }
-                        }
-                    }
-                ],
-                "message": {
-                    "text": "ASSERTION FAIL: a != 42"
-                },
-                "ruleId": "assert.err"
-            },
-            {
-                "codeFlows": [
-                    {
-                        "threadFlows": [
-                            {
-                                "locations": [
-                                    {
-                                        "location": {
-                                            "physicalLocation": {
-                                                "artifactLocation": {
-                                                    "uri": "runtime/POSIX/klee_init_env.c"
-                                                },
-                                                "region": {
-                                                    "startLine": 249
-                                                }
-                                            }
-                                        }
-                                    },
-                                    {
-                                        "location": {
-                                            "physicalLocation": {
-                                                "artifactLocation": {
-                                                    "uri": "tmp/utbot-AX4M/lib/assertion_failures_klee.c"
-                                                },
-                                                "region": {
-                                                    "startLine": 48
-                                                }
-                                            }
-                                        }
-                                    },
-                                    {
-                                        "location": {
-                                            "physicalLocation": {
-                                                "artifactLocation": {
-                                                    "uri": "lib/assertion_failures.c"
-                                                },
-                                                "region": {
-                                                    "startLine": 24
-                                                }
-                                            }
-                                        }
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                "level": "error",
-                "locations": [
-                    {
-                        "physicalLocation": {
-                            "artifactLocation": {
-                                "uri": "lib/assertion_failures.c"
-                            },
-                            "region": {
-                                "startLine": 24
-                            }
-                        }
-                    }
-                ],
-                "message": {
-                    "text": "ASSERTION FAIL: a < 1"
-                },
-                "ruleId": "assert.err"
-            }
-        ],
-        "tool": {
-            "driver": {
-                "name": "utbotSARIF"
+                    ],
+                    "message": {
+                        "text": "memory error: out of bound pointer"
+                    },
+                    "ruleId": "ptr.err"
+                }
+            ],
+            "tool": {
+                "driver": {
+                    "name": "utbotSARIF",
+                    "rules": []
+                }
             }
         }
-    }],
+    ],
     "version": "2.1.0"
 }
