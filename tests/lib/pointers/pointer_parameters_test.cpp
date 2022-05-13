@@ -14,18 +14,18 @@ static const float utbot_abs_error = 1e-6;
 
 TEST(regression, c_strcmp_test_1)
 {
-    char a[] = "";
-    char b[] = "";
-    int actual = c_strcmp(a, b);
-    EXPECT_EQ(1, actual);
-}
-
-TEST(regression, c_strcmp_test_2)
-{
     char a[] = "cpcbccccbc";
     char b[] = "cqcccccccc";
     int actual = c_strcmp(a, b);
     EXPECT_EQ(0, actual);
+}
+
+TEST(regression, c_strcmp_test_2)
+{
+    char a[] = "";
+    char b[] = "";
+    int actual = c_strcmp(a, b);
+    EXPECT_EQ(1, actual);
 }
 
 TEST(regression, c_strcmp_test_3)
@@ -82,7 +82,7 @@ TEST(regression, longptr_cmp_test_1)
 
 TEST(regression, void_pointer_char_usage_test_1)
 {
-    __attribute__ ((aligned(16))) unsigned char x = 0;
+    __attribute__ ((aligned(128))) unsigned char x = 0;
     int actual = void_pointer_char_usage(&x);
     EXPECT_EQ(0, actual);
     void expected_x = 0;
@@ -112,7 +112,7 @@ TEST(error, isworld_test_2)
 
 TEST(error, void_pointer_int_usage_test_1)
 {
-    __attribute__ ((aligned(16))) unsigned char x = 0;
+    __attribute__ ((aligned(128))) unsigned char x = 0;
     void_pointer_int_usage(&x);
     void expected_x = 0;
     EXPECT_EQ(expected_x, x);
@@ -120,7 +120,7 @@ TEST(error, void_pointer_int_usage_test_1)
 
 TEST(error, void_pointer_char_usage_test_2)
 {
-    __attribute__ ((aligned(16))) unsigned char x = 104;
+    __attribute__ ((aligned(128))) unsigned char x = 104;
     void_pointer_char_usage(&x);
     void expected_x = 0;
     EXPECT_EQ(expected_x, x);
