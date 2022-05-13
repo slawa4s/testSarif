@@ -14,7 +14,7 @@ static const float utbot_abs_error = 1e-6;
 
 TEST(regression, isworld_test_1)
 {
-    unsigned char a = 97;
+    unsigned char a = 99;
     int actual = isworld(&a);
     EXPECT_EQ(0, actual);
 }
