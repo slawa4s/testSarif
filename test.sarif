@@ -1,281 +1,1213 @@
 {
-    "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.4.json",
-    "runs": [
-        {
-            "results": [
-                {
-                    "codeFlows": [
-                        {
-                            "threadFlows": [
-                                {
-                                    "locations": [
-                                        {
-                                            "location": {
-                                                "physicalLocation": {
-                                                    "artifactLocation": {
-                                                        "uri": "tests/lib/linked-list/linked-list_test.cpp"
-                                                    },
-                                                    "region": {
-                                                        "startLine": 75
-                                                    }
-                                                }
-                                            }
-                                        },
-                                        {
-                                            "location": {
-                                                "physicalLocation": {
-                                                    "artifactLocation": {
-                                                        "uri": "lib/linked-list/linked-list.c"
-                                                    },
-                                                    "region": {
-                                                        "startLine": 14
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "level": "error",
-                    "locations": [
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "lib/linked-list/linked-list.c"
-                                },
-                                "region": {
-                                    "startLine": 14
-                                }
-                            }
-                        }
-                    ],
-                    "message": {
-                        "text": "invalid usage of null pointer"
-                    },
-                    "ruleId": "undefined_behavior.err"
-                },
-                {
-                    "codeFlows": [
-                        {
-                            "threadFlows": [
-                                {
-                                    "locations": [
-                                        {
-                                            "location": {
-                                                "physicalLocation": {
-                                                    "artifactLocation": {
-                                                        "uri": "tests/lib/linked-list/linked-list_test.cpp"
-                                                    },
-                                                    "region": {
-                                                        "startLine": 85
-                                                    }
-                                                }
-                                            }
-                                        },
-                                        {
-                                            "location": {
-                                                "physicalLocation": {
-                                                    "artifactLocation": {
-                                                        "uri": "lib/linked-list/linked-list.c"
-                                                    },
-                                                    "region": {
-                                                        "startLine": 17
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "level": "error",
-                    "locations": [
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "lib/linked-list/linked-list.c"
-                                },
-                                "region": {
-                                    "startLine": 17
-                                }
-                            }
-                        }
-                    ],
-                    "message": {
-                        "text": "memory error: out of bound pointer"
-                    },
-                    "ruleId": "ptr.err"
-                },
-                {
-                    "codeFlows": [
-                        {
-                            "threadFlows": [
-                                {
-                                    "locations": [
-                                        {
-                                            "location": {
-                                                "physicalLocation": {
-                                                    "artifactLocation": {
-                                                        "uri": "tests/lib/linked-list/linked-list_test.cpp"
-                                                    },
-                                                    "region": {
-                                                        "startLine": 95
-                                                    }
-                                                }
-                                            }
-                                        },
-                                        {
-                                            "location": {
-                                                "physicalLocation": {
-                                                    "artifactLocation": {
-                                                        "uri": "lib/linked-list/linked-list.c"
-                                                    },
-                                                    "region": {
-                                                        "startLine": 17
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "level": "error",
-                    "locations": [
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "lib/linked-list/linked-list.c"
-                                },
-                                "region": {
-                                    "startLine": 17
-                                }
-                            }
-                        }
-                    ],
-                    "message": {
-                        "text": "invalid usage of null pointer"
-                    },
-                    "ruleId": "undefined_behavior.err"
-                },
-                {
-                    "codeFlows": [
-                        {
-                            "threadFlows": [
-                                {
-                                    "locations": [
-                                        {
-                                            "location": {
-                                                "physicalLocation": {
-                                                    "artifactLocation": {
-                                                        "uri": "tests/lib/linked-list/linked-list_test.cpp"
-                                                    },
-                                                    "region": {
-                                                        "startLine": 103
-                                                    }
-                                                }
-                                            }
-                                        },
-                                        {
-                                            "location": {
-                                                "physicalLocation": {
-                                                    "artifactLocation": {
-                                                        "uri": "lib/linked-list/linked-list.c"
-                                                    },
-                                                    "region": {
-                                                        "startLine": 14
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "level": "error",
-                    "locations": [
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "lib/linked-list/linked-list.c"
-                                },
-                                "region": {
-                                    "startLine": 14
-                                }
-                            }
-                        }
-                    ],
-                    "message": {
-                        "text": "either misaligned address for 0xff or invalid usage of address 0xff with insufficient space"
-                    },
-                    "ruleId": "undefined_behavior.err"
-                },
-                {
-                    "codeFlows": [
-                        {
-                            "threadFlows": [
-                                {
-                                    "locations": [
-                                        {
-                                            "location": {
-                                                "physicalLocation": {
-                                                    "artifactLocation": {
-                                                        "uri": "tests/lib/linked-list/linked-list_test.cpp"
-                                                    },
-                                                    "region": {
-                                                        "startLine": 67
-                                                    }
-                                                }
-                                            }
-                                        },
-                                        {
-                                            "location": {
-                                                "physicalLocation": {
-                                                    "artifactLocation": {
-                                                        "uri": "lib/linked-list/linked-list.c"
-                                                    },
-                                                    "region": {
-                                                        "startLine": 17
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "level": "error",
-                    "locations": [
-                        {
-                            "physicalLocation": {
-                                "artifactLocation": {
-                                    "uri": "lib/linked-list/linked-list.c"
-                                },
-                                "region": {
-                                    "startLine": 17
-                                }
-                            }
-                        }
-                    ],
-                    "message": {
-                        "text": "either misaligned address for 0xff or invalid usage of address 0xff with insufficient space"
-                    },
-                    "ruleId": "undefined_behavior.err"
-                }
-            ],
-            "tool": {
-                "driver": {
-                    "name": "utbotSARIF",
-                    "rules": []
-                }
+  "version": "2.1.0",
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "PVS-Studio",
+          "semanticVersion": "7.19.61166.216",
+          "informationUri": "https://pvs-studio.com",
+          "rules": [
+            {
+              "id": "Renew",
+              "name": "RuleRenew",
+              "help": {
+                "text": "https://pvs-studio.com/en/renewal/"
+              },
+              "helpUri": "https://pvs-studio.com/en/renewal/"
+            },
+            {
+              "id": "V756",
+              "name": "RuleV756",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v756/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v756/"
+            },
+            {
+              "id": "V1082",
+              "name": "RuleV1082",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v1082/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v1082/"
+            },
+            {
+              "id": "V522",
+              "name": "RuleV522",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v522/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v522/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-690"
+                ]
+              }
+            },
+            {
+              "id": "V774",
+              "name": "RuleV774",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v774/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v774/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-416"
+                ]
+              }
+            },
+            {
+              "id": "V586",
+              "name": "RuleV586",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v586/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v586/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-415"
+                ]
+              }
+            },
+            {
+              "id": "V799",
+              "name": "RuleV799",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v799/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v799/"
+            },
+            {
+              "id": "V726",
+              "name": "RuleV726",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v726/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v726/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-761"
+                ]
+              }
+            },
+            {
+              "id": "V707",
+              "name": "RuleV707",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v707/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v707/"
+            },
+            {
+              "id": "V560",
+              "name": "RuleV560",
+              "help": {
+                "text": "https://pvs-studio.com/en/docs/warnings/v560/"
+              },
+              "helpUri": "https://pvs-studio.com/en/docs/warnings/v560/",
+              "properties": {
+                "tags": [
+                  "security",
+                  "external/cwe/cwe-570"
+                ]
+              }
             }
+          ]
         }
-    ],
-    "version": "2.1.0"
+      },
+      "results": [
+        {
+          "ruleId": "Renew",
+          "message": {
+            "text": "Your license will expire in 8 days. Click 'Renew' to learn more or contact us at support@viva64.com."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///%20"
+                },
+                "region": {
+                  "startLine": 1,
+                  "endLine": 1,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V756",
+          "message": {
+            "text": "The 'i' counter is not used inside a nested loop. Consider inspecting usage of 'j' counter."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/array/array-sort.c"
+                },
+                "region": {
+                  "startLine": 11,
+                  "endLine": 11,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'i' counter is not used inside a nested loop. Consider inspecting usage of 'j' counter."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/array/array-sort.c"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 11,
+                  "startColumn": 1,
+                  "startLine": 11
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'i' counter is not used inside a nested loop. Consider inspecting usage of 'j' counter."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/array/array-sort.c"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 12,
+                  "startColumn": 1,
+                  "startLine": 12
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V756",
+          "message": {
+            "text": "The 'i' counter is not used inside a nested loop. Consider inspecting usage of 'j' counter."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/array/array-sort.c"
+                },
+                "region": {
+                  "startLine": 39,
+                  "endLine": 39,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'i' counter is not used inside a nested loop. Consider inspecting usage of 'j' counter."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/array/array-sort.c"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 39,
+                  "startColumn": 1,
+                  "startLine": 39
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'i' counter is not used inside a nested loop. Consider inspecting usage of 'j' counter."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/array/array-sort.c"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 40,
+                  "startColumn": 1,
+                  "startLine": 40
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V1082",
+          "message": {
+            "text": "Function marked as 'noreturn' may return control. This will result in undefined behavior."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/keywords/keywords.c"
+                },
+                "region": {
+                  "startLine": 13,
+                  "endLine": 13,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V522",
+          "message": {
+            "text": "There might be dereferencing of a potential null pointer 'min_max'. Check lines: 63, 61."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/keywords/qualifiers.c"
+                },
+                "region": {
+                  "startLine": 63,
+                  "endLine": 63,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "There might be dereferencing of a potential null pointer 'min_max'. Check lines: 63, 61."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/keywords/qualifiers.c"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 61,
+                  "startColumn": 1,
+                  "startLine": 61
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "There might be dereferencing of a potential null pointer 'min_max'. Check lines: 63, 61."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/keywords/qualifiers.c"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 63,
+                  "startColumn": 1,
+                  "startLine": 63
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V522",
+          "message": {
+            "text": "There might be dereferencing of a potential null pointer 'p'. Check lines: 10, 9."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/memory.c"
+                },
+                "region": {
+                  "startLine": 10,
+                  "endLine": 10,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "There might be dereferencing of a potential null pointer 'p'. Check lines: 10, 9."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/memory.c"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 9,
+                  "startColumn": 1,
+                  "startLine": 9
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "There might be dereferencing of a potential null pointer 'p'. Check lines: 10, 9."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/memory.c"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 10,
+                  "startColumn": 1,
+                  "startLine": 10
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V522",
+          "message": {
+            "text": "There might be dereferencing of a potential null pointer 'p'."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/memory.c"
+                },
+                "region": {
+                  "startLine": 28,
+                  "endLine": 28,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V774",
+          "message": {
+            "text": "The 'p' pointer was used after the memory was released."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/memory.c"
+                },
+                "region": {
+                  "startLine": 28,
+                  "endLine": 28,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'p' pointer was used after the memory was released."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/memory.c"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 27,
+                  "startColumn": 1,
+                  "startLine": 27
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'p' pointer was used after the memory was released."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/memory.c"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 28,
+                  "startColumn": 1,
+                  "startLine": 28
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V586",
+          "message": {
+            "text": "The 'free' function is called twice for deallocation of the same memory space. Inspect the first argument. Check lines: 57, 58."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/memory.c"
+                },
+                "region": {
+                  "startLine": 58,
+                  "endLine": 58,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'free' function is called twice for deallocation of the same memory space. Inspect the first argument. Check lines: 57, 58."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/memory.c"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 57,
+                  "startColumn": 1,
+                  "startLine": 57
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'free' function is called twice for deallocation of the same memory space. Inspect the first argument. Check lines: 57, 58."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/memory.c"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 58,
+                  "startColumn": 1,
+                  "startLine": 58
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V799",
+          "message": {
+            "text": "The 'p' variable is not used after memory has been allocated for it. Consider checking the use of this variable."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/memory.c"
+                },
+                "region": {
+                  "startLine": 56,
+                  "endLine": 56,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "The 'p' variable is not used after memory has been allocated for it. Consider checking the use of this variable."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/memory.c"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 56,
+                  "startColumn": 1,
+                  "startLine": 56
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "The 'p' variable is not used after memory has been allocated for it. Consider checking the use of this variable."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/memory.c"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 58,
+                  "startColumn": 1,
+                  "startLine": 58
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V726",
+          "message": {
+            "text": "An attempt to free memory containing the 'p' array by using the 'free' function. This is incorrect as 'p' was created on stack."
+          },
+          "level": "error",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/memory.c"
+                },
+                "region": {
+                  "startLine": 63,
+                  "endLine": 63,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V522",
+          "message": {
+            "text": "There might be dereferencing of a potential null pointer 'chain'. Check lines: 98, 94."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/pointers/function_pointers.c"
+                },
+                "region": {
+                  "startLine": 98,
+                  "endLine": 98,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "There might be dereferencing of a potential null pointer 'chain'. Check lines: 98, 94."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/pointers/function_pointers.c"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 94,
+                  "startColumn": 1,
+                  "startLine": 94
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "There might be dereferencing of a potential null pointer 'chain'. Check lines: 98, 94."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/pointers/function_pointers.c"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 98,
+                  "startColumn": 1,
+                  "startLine": 98
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V522",
+          "message": {
+            "text": "There might be dereferencing of a potential null pointer 'return_val'. Check lines: 22, 20."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/pointers/pointer_return.c"
+                },
+                "region": {
+                  "startLine": 22,
+                  "endLine": 22,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "There might be dereferencing of a potential null pointer 'return_val'. Check lines: 22, 20."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/pointers/pointer_return.c"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 20,
+                  "startColumn": 1,
+                  "startLine": 20
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "There might be dereferencing of a potential null pointer 'return_val'. Check lines: 22, 20."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/pointers/pointer_return.c"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 22,
+                  "startColumn": 1,
+                  "startLine": 22
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V522",
+          "message": {
+            "text": "There might be dereferencing of a potential null pointer 'min_max'. Check lines: 44, 42."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/pointers/pointer_return.c"
+                },
+                "region": {
+                  "startLine": 44,
+                  "endLine": 44,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "There might be dereferencing of a potential null pointer 'min_max'. Check lines: 44, 42."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/pointers/pointer_return.c"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 42,
+                  "startColumn": 1,
+                  "startLine": 42
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "There might be dereferencing of a potential null pointer 'min_max'. Check lines: 44, 42."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/pointers/pointer_return.c"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 44,
+                  "startColumn": 1,
+                  "startLine": 44
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V522",
+          "message": {
+            "text": "There might be dereferencing of a potential null pointer 'min_max'. Check lines: 72, 70."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/pointers/pointer_return.c"
+                },
+                "region": {
+                  "startLine": 72,
+                  "endLine": 72,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "There might be dereferencing of a potential null pointer 'min_max'. Check lines: 72, 70."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/pointers/pointer_return.c"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 70,
+                  "startColumn": 1,
+                  "startLine": 70
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "There might be dereferencing of a potential null pointer 'min_max'. Check lines: 72, 70."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/pointers/pointer_return.c"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 72,
+                  "startColumn": 1,
+                  "startLine": 72
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V522",
+          "message": {
+            "text": "There might be dereferencing of a potential null pointer 'return_val'. Check lines: 85, 83."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/pointers/pointer_return.c"
+                },
+                "region": {
+                  "startLine": 85,
+                  "endLine": 85,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "There might be dereferencing of a potential null pointer 'return_val'. Check lines: 85, 83."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/pointers/pointer_return.c"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 83,
+                  "startColumn": 1,
+                  "startLine": 83
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "There might be dereferencing of a potential null pointer 'return_val'. Check lines: 85, 83."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/pointers/pointer_return.c"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 85,
+                  "startColumn": 1,
+                  "startLine": 85
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V522",
+          "message": {
+            "text": "There might be dereferencing of a potential null pointer 'arr'. Check lines: 99, 97."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/pointers/pointer_return.c"
+                },
+                "region": {
+                  "startLine": 99,
+                  "endLine": 99,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "There might be dereferencing of a potential null pointer 'arr'. Check lines: 99, 97."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/pointers/pointer_return.c"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 97,
+                  "startColumn": 1,
+                  "startLine": 97
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "There might be dereferencing of a potential null pointer 'arr'. Check lines: 99, 97."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/pointers/pointer_return.c"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 99,
+                  "startColumn": 1,
+                  "startLine": 99
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V522",
+          "message": {
+            "text": "There might be dereferencing of a potential null pointer 'arr'. Check lines: 112, 111."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/pointers/pointer_return.c"
+                },
+                "region": {
+                  "startLine": 112,
+                  "endLine": 112,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "There might be dereferencing of a potential null pointer 'arr'. Check lines: 112, 111."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/pointers/pointer_return.c"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 111,
+                  "startColumn": 1,
+                  "startLine": 111
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "There might be dereferencing of a potential null pointer 'arr'. Check lines: 112, 111."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/pointers/pointer_return.c"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 112,
+                  "startColumn": 1,
+                  "startLine": 112
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V522",
+          "message": {
+            "text": "There might be dereferencing of a potential null pointer 'arr[0]'. Check lines: 116, 112."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/pointers/pointer_return.c"
+                },
+                "region": {
+                  "startLine": 116,
+                  "endLine": 116,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "There might be dereferencing of a potential null pointer 'arr[0]'. Check lines: 116, 112."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/pointers/pointer_return.c"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 112,
+                  "startColumn": 1,
+                  "startLine": 112
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "There might be dereferencing of a potential null pointer 'arr[0]'. Check lines: 116, 112."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/pointers/pointer_return.c"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 116,
+                  "startColumn": 1,
+                  "startLine": 116
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V522",
+          "message": {
+            "text": "There might be dereferencing of a potential null pointer '(char *) ptr'. Check lines: 126, 125."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/pointers/pointer_return.c"
+                },
+                "region": {
+                  "startLine": 126,
+                  "endLine": 126,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "There might be dereferencing of a potential null pointer '(char *) ptr'. Check lines: 126, 125."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/pointers/pointer_return.c"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 125,
+                  "startColumn": 1,
+                  "startLine": 125
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "There might be dereferencing of a potential null pointer '(char *) ptr'. Check lines: 126, 125."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/pointers/pointer_return.c"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 126,
+                  "startColumn": 1,
+                  "startLine": 126
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V707",
+          "message": {
+            "text": "Giving short names to global variables is considered to be bad practice. It is suggested to rename 'x' variable."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/static.c"
+                },
+                "region": {
+                  "startLine": 5,
+                  "endLine": 5,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V560",
+          "message": {
+            "text": "A part of conditional expression is always false: st.x == 5."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/structures/simple_unions.c"
+                },
+                "region": {
+                  "startLine": 62,
+                  "endLine": 62,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ]
+        },
+        {
+          "ruleId": "V522",
+          "message": {
+            "text": "There might be dereferencing of a potential null pointer 'vector'. Check lines: 95, 94."
+          },
+          "level": "warning",
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/types/types_3.c"
+                },
+                "region": {
+                  "startLine": 95,
+                  "endLine": 95,
+                  "startColumn": 1,
+                  "endColumn": 2147483647
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "message": {
+                "text": "There might be dereferencing of a potential null pointer 'vector'. Check lines: 95, 94."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/types/types_3.c"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 94,
+                  "startColumn": 1,
+                  "startLine": 94
+                }
+              }
+            },
+            {
+              "message": {
+                "text": "There might be dereferencing of a potential null pointer 'vector'. Check lines: 95, 94."
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///home/slawa4s/PVS/lib/types/types_3.c"
+                },
+                "region": {
+                  "endColumn": 2147483647,
+                  "endLine": 95,
+                  "startColumn": 1,
+                  "startLine": 95
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
